@@ -1,12 +1,10 @@
+import { Header } from "../../components/Header"
 import { Profiles } from "../../components/Profiles"
 
 const Home = () => {
   return (
     <>
-      <header>
-        <img className="w-20 rounded-sm" src="https://github.com/Leve-Type.png" alt="leve type logo" />
-        <h2>Leve type community</h2>
-      </header>
+      <Header />
       <section>
         <h3>Quem somos?</h3>
         <p></p>
