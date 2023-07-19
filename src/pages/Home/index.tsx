@@ -1,13 +1,13 @@
 import { Card } from "../../components/Card"
 import { Header } from "../../components/Header"
 import { Profiles } from "../../components/Profiles"
-import andershejlsberg from "../../assets/anders-hejlsberg.png"
+import andershejlsberg from "../../assets/andershejlsberg.png"
 
 const Home = () => {
   return (
     <>
       <Header />
-      <section className="flex gap-3">
+      <section className="flex gap-10 mx-20 my-5">
         <Card
           title="TypeScript: The Future of JavaScript"
           subtitle="Who is typescript and who created it?"

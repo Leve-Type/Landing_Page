@@ -7,8 +7,8 @@ export const Header = () => {
                 <ul className="flex gap-5 text-cyan-50">
                     <li><a href="/events">Events</a></li>
                     <li><a href="/aboutus">About us</a></li>
-                    <li><a href="/contact">Contact</a></li>
                     <li><a href="/community">Community</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
